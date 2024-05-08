@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: playlist_junkie
+    password: playlist_junkie
+    url: jdbc:mysql://localhost:3306/playlist_junkie
+    
+  jpa:
+    hibernate: 
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+    
+  sql: 
+    init:
+      mode: never
